@@ -1,0 +1,125 @@
+header{
+  background: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;   
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+section{
+  padding: 130px 200px 0px;
+  margin-bottom: px;
+  display: block;
+}
+main{
+  font-size: 12px
+}
+h1, h2, h3, blockquote{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+h2, h3{
+  font-weight: lighter
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+main{
+  border: 100%;
+  display: flex;
+  padding: 40px 220px 0px;
+  display: block;
+  position: relative;
+}
+li{
+  margin-left: -20px;
+}
+
+blockquote::before {
+  content:'"'; 
+  font-size: 40px;
+  margin-left: -12px;
+  font-style: italic;
+}
+blockquote{
+  background: grey;
+  margin-left: -20px;
+  color: white;
+  padding: 0 20px;
+  width: 100%;
+  font-size: 24px;
+  padding-bottom: 10px;
+  }
+.uppercase{
+  text-transform: uppercase;
+}
+.job-description{
+  font-style: italic;
+  font-weight: bold;
+}
+.inmade{
+  font: bold 12px 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 30px; 
+}
+.pagination{
+  
+}
+.page-left{
+  left: -30px;
+  width: 60px;
+  height: 120px;
+  position: fixed;
+  top: 50%;
+  background: orange;
+  opacity: .3;
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-top-right-radius: 900px;
+  border-bottom-right-radius: 900px;
+}
+.page-right{
+  right: -30px;
+  width: 60px;
+  height: 120px;
+  position: fixed;
+  top: 50%;
+  background: orange;
+  opacity: .3;
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-top-left-radius: 900px;
+  border-bottom-left-radius: 900px;
+a{
+  text-decoration: none;
+}
+.page-left:hover {
+  width: 60px;
+  height: 120px;
+  position: fixed;
+  top: 50%;
+  background: blue;
+  opacity: 
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-top-right-radius: 900px;
+  border-bottom-right-radius: 900px;
+  }
